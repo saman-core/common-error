@@ -14,16 +14,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>${jackson-databind.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.spec.javax.ws.rs</groupId>
-            <artifactId>jboss-jaxrs-api_2.1_spec</artifactId>
-            <version>${jboss-jaxrs-api.version}</version>
-            <scope>provided</scope>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-resteasy-reactive-jackson-common</artifactId>
+            <version>${quarkus.version}</version>
         </dependency>
     </dependencies>
 
@@ -31,8 +24,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <lombok.version>1.18.26</lombok.version>
-        <jackson-databind.version>2.13.4</jackson-databind.version>
-        <jboss-jaxrs-api.version>2.0.1.Final</jboss-jaxrs-api.version>
+        <quarkus.version>3.6.6</quarkus.version>
     </properties>
 
     <distributionManagement>

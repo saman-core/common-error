@@ -6,7 +6,7 @@ import io.samancore.common.error.exception.BusinessException;
 import io.samancore.common.error.exception.TechnicalException;
 import io.samancore.common.error.message.TechnicalExceptionsEnum;
 
-import javax.ws.rs.NotFoundException;
+import jakarta.ws.rs.NotFoundException;
 import java.util.Collections;
 import java.util.List;
 
