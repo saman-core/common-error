@@ -26,7 +26,8 @@ public enum BusinessExceptionsEnum implements Exceptions {
     FILE_IS_MANDATORY(40017, "File is mandatory"),
     FAMILY_SHOULD_ONLY_HAVE_ONE_FAMILY_HEAD(40018, "Family should only have one family head"),
     FAMILY_WAS_COMPLETED_BEFORE(40019, "Family was completed before"),
-    USER_IS_NOT_OWNER_REQUEST(40020, "User is not owner of this request");
+    USER_IS_NOT_OWNER_REQUEST(40020, "User is not owner of this request"),
+    CONDITION_VALIDATE_ERROR(40021, "There are some validate conditions with error ");;
 
     private final int value;
     private final String description;

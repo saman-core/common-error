@@ -20,7 +20,8 @@ public enum TechnicalExceptionsEnum implements Exceptions {
     HCAPTCHA_PROCESS_ERROR(50011, "Error processing request to hcaptcha server"),
     PROGRAM_INVALID(50012, "Program not exist"),
     INVALID_REQUEST(50013, "Error processing the request, has invalid io.samancore.data"),
-    INVALID_STATUS_ACTION(50014, "Error processing excutor, has invalid action to handle");
+    INVALID_STATUS_ACTION(50014, "Error processing excutor, has invalid action to handle"),
+    PROCESSING_CONDITION_ERROR(50015, "Error processing excutor, has invalid action to handle");
 
 
     private final int value;
